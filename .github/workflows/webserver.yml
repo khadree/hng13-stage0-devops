@@ -31,7 +31,7 @@ jobs:
           username: ${{ secrets.SERVER_USER }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           source: "."
-          target: "/var/www/html/"
+          target: "/tmp/html/"
 
       - name: Restart NGINX
         uses: appleboy/ssh-action@v0.1.7
@@ -40,4 +40,6 @@ jobs:
           username: ${{ secrets.SERVER_USER }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
+            sudo mkdir -p /var/www/html
+            sudo mv /tmp/html/* /var/www/html/
             sudo systemctl restart nginx
