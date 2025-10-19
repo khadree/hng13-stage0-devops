@@ -1,8 +1,6 @@
 Name: Kadiri George
 Slack usrname : khadree
 
-
-
 Project: Customized NGINX Web Server
 
 This project involves setting up and configuring an NGINX web server to host a custom landing page that displays personal details. The server was deployed on a live environment and configured to serve static web content through a customized HTML.
@@ -22,5 +20,5 @@ Managed access via IP or domain for public visibility.
 Tech Stack:
 NGINX • HTML • Linux (Ubuntu) • GitHub Actions 
 
-IP ADDRESS:54.167.115.73
+IP ADDRESS: 54.226.60.14
 
