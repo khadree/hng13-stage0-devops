@@ -20,5 +20,5 @@ Managed access via IP or domain for public visibility.
 Tech Stack:
 NGINX • HTML • Linux (Ubuntu) • GitHub Actions 
 
-IP ADDRESS: 54.226.60.14
+IP ADDRESS: 3.253.244.103
 
